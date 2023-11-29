@@ -1,0 +1,370 @@
+    body{
+  font-size: 15pt;
+  user-select: none;
+  padding: 3;
+  margin: 0;
+}
+
+.link{
+  position: relative;
+  text-align: center;
+  background-color: #ff6655;
+  width: 100px;
+  margin: 0 auto;
+  padding: 10px;
+  border: 3.69px solid #333;
+  border-radius: 69px;
+}
+
+main{
+  position: relative;
+}
+
+/* Clisks */
+#logclick{
+  height: 40px;
+  background-color: yellow;
+}
+#imgcli{
+  width: 40px;
+  height: 40px;
+}
+
+/* Dog */
+#logdog{
+  position: absolute;
+  width: 100%;
+  height: 40px;
+  top: 90px;
+  left: 4px;
+}
+#imgdog{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+}
+#buydog{
+  position: absolute;
+  width: 150px;
+  height: 40px;
+  left: 45px;
+  background-color: darkorange;
+}
+#maxdog{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 195px;
+  background-color: darkorange;
+  text-align: center;
+}
+#disdog{
+  position: absolute;
+  width: 365px;
+  height: 40px;
+  left: 240px;
+  bottom: 2px;
+  margin: 0 0 -10px 0;
+}
+
+/* Cats */
+#logcat{
+  position: absolute;
+  width: 100%;
+  height: 40px;
+  top: 140px;
+  left: 4px;
+}
+#imgcat{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+}
+#buycat{
+  position: absolute;
+  width: 150px;
+  height: 40px;
+  left: 45px;
+  background-color: orange;
+}
+#maxcat{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 195px;
+  background-color: orange;
+  text-align: center;
+}
+#discat{
+  position: absolute;
+  width: 350px;
+  height: 40px;
+  left: 240px;
+  bottom: 2px;
+  margin: 0 0 -10px 0;
+}
+
+/* Foxes */
+#logfox{
+  position: absolute;
+  width: 100%;
+  height: 40px;
+  top: 190px;
+  left: 4px;
+}
+#imgfox{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+}
+#buyfox{
+  position: absolute;
+  width: 150px;
+  height: 40px;
+  left: 45px;
+  background-color: lightsalmon;
+}
+#maxfox{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 195px;
+  background-color: lightsalmon;
+  text-align: center;
+}
+#disfox{
+  position: absolute;
+  width: 350px;
+  height: 40px;
+  left: 240px;
+  bottom: 2px;
+  margin: 0 0 -10px 0;
+}
+
+/* Wolfs */
+#logwol{
+  position: absolute;
+  width: 100%;
+  height: 40px;
+  top: 240px;
+  left: 4px;
+}
+#imgwol{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+}
+#buywol{
+  position: absolute;
+  width: 150px;
+  height: 40px;
+  left: 45px;
+  background-color: lightgray;
+}
+#maxwol{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 195px;
+  background-color: lightgray;
+  text-align: center;
+}
+#diswol{
+  position: absolute;
+  width: 350px;
+  height: 40px;
+  left: 240px;
+  bottom: 2px;
+  margin: 0 0 -10px 0;
+}
+
+/* Hamsters */
+#logham{
+  position: absolute;
+  width: 100%;
+  height: 40px;
+  top: 290px;
+  left: 4px;
+}
+#imgham{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+}
+#buyham{
+  position: absolute;
+  width: 150px;
+  height: 40px;
+  left: 45px;
+  background-color: wheat;
+}
+#maxham{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 195px;
+  background-color: wheat;
+  text-align: center;
+}
+#disham{
+  position: absolute;
+  width: 350px;
+  height: 40px;
+  left: 240px;
+  bottom: 2px;
+  margin: 0 0 -10px 0;
+}
+
+/* Whales */
+#logwha{
+  position: absolute;
+  width: 100%;
+  height: 40px;
+  top: 340px;
+  left: 4px;
+}
+#imgwha{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+}
+#buywha{
+  position: absolute;
+  width: 150px;
+  height: 40px;
+  left: 45px;
+  background-color: cyan;
+}
+#maxwha{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 195px;
+  background-color: cyan;
+  text-align: center;
+}
+#diswha{
+  position: absolute;
+  width: 350px;
+  height: 40px;
+  left: 240px;
+  bottom: 2px;
+  margin: 0 0 -10px 0;
+}
+
+/* Capybaras */
+#logcap{
+  position: absolute;
+  width: 100%;
+  height: 40px;
+  top: 390px;
+  left: 4px;
+}
+#imgcap{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+}
+#buycap{
+  position: absolute;
+  width: 150px;
+  height: 40px;
+  left: 45px;
+  background-color: rosybrown;
+}
+#maxcap{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 195px;
+  background-color: rosybrown;
+  text-align: center;
+}
+#discap{
+  position: absolute;
+  width: 350px;
+  height: 40px;
+  left: 240px;
+  bottom: 2px;
+  margin: 0 0 -10px 0;
+}
+
+
+
+
+/* By MrEidam */
+
+/* Lemons */
+#loglem{
+  position: absolute;
+  width: 100%;
+  height: 40px;
+  top: 500px;
+  left: 4px;
+}
+#imglem{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+}
+#buylem{
+  position: absolute;
+  width: 150px;
+  height: 40px;
+  left: 45px;
+  background-color: yellow;
+}
+#maxlem{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 195px;
+  background-color: yellow;
+  text-align: center;
+}
+
+#dislem{
+  position: absolute;
+  width: 350px;
+  height: 40px;
+  left: 240px;
+  bottom: 2px;
+  margin: 0 0 -10px 0;
+}
+
+/* Lemon trees */
+#logLt3{
+  position: absolute;
+  width: 100%;
+  height: 40px;
+  top: 550px;
+  left: 4px;
+}
+#imglt3{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+}
+#buyLt3{
+  position: absolute;
+  width: 150px;
+  height: 40px;
+  left: 45px;
+  background-color: lightgoldenrodyellow;
+}
+#maxLt3{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 195px;
+  background-color: lightgoldenrodyellow;
+  text-align: center;
+}
+#dislt3{
+  position: absolute;
+  width: 350px;
+  height: 40px;
+  left: 240px;
+  bottom: 2px;
+  margin: 0 0 -10px 0;
+}

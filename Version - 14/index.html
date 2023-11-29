@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  
+  <!-- By MrEidamus & Stanislav Chlup -->
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="Clicks">
+    <p id="logclicks"></p>
+    </div>
+<div id="button1">
+  <img src = 'https://i.postimg.cc/9Rs0vWFF/Nezm-kl.png' id="unpressed">
+  <img src = "https://i.postimg.cc/NLr5Rrpy/Zm-kl.png" id="pressed">
+ </div>
+  <script src="main.js"></script>
+  <div id="dog">
+    <p id="logdog"></p>
+    <button id="buydog" onclick="game.dog()">Buy a dog for 100 clicks!</button>
+  </div>
+  <div id="cat">
+    <button id="buycat" onclick="game.cat()">Buy a cat for 20 dogs!</button>
+  </div>
+  <div id="delete">
+    <button id="reset" onclick="game.reset()">Reset</button>
+  </div>
+  <button id="percent" onclick="game.percents()">1x</button>
+</body>
+</html>

@@ -1,0 +1,190 @@
+body{
+  font-size: 15pt;
+  user-select: none;
+}
+/* Clisks */
+#logclick{
+  position: absolute;
+  width: 100%;
+  height: 40px;
+  top: 35px;
+}
+#imgcli{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+}
+#disclick{
+  position: absolute;
+  width: 100%;
+  height: 40px;
+  left: 45px;
+}
+
+/* Dog */
+#logdog{
+  position: absolute;
+  width: 100%;
+  height: 40px;
+  top: 90px;
+}
+#imgdog{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+}
+#buydog{
+  position: absolute;
+  width: 150px;
+  height: 40px;
+  left: 45px;
+  background-color: darkorange;
+}
+#disdog{
+  position: absolute;
+  width: 200px;
+  height: 40px;
+  left: 230px;
+  bottom: 2px;
+  margin: 0 0 -10px 0;
+}
+
+/* Cats */
+#logcat{
+  position: absolute;
+  width: 100%;
+  height: 40px;
+  top: 140px;
+}
+#imgcat{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+}
+#buycat{
+  position: absolute;
+  width: 150px;
+  height: 40px;
+  left: 45px;
+  background-color: orange;
+}
+#discat{
+  position: absolute;
+  width: 200px;
+  height: 40px;
+  left: 230px;
+  bottom: 2px;
+  margin: 0 0 -10px 0;
+}
+
+/* Foxes */
+#logfox{
+  position: absolute;
+  width: 100%;
+  height: 40px;
+  top: 190px;
+}
+#imgfox{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+}
+#buyfox{
+  position: absolute;
+  width: 150px;
+  height: 40px;
+  left: 45px;
+  background-color: lightsalmon;
+}
+#disfox{
+  position: absolute;
+  width: 200px;
+  height: 40px;
+  left: 230px;
+  bottom: 2px;
+  margin: 0 0 -10px 0;
+}
+
+/* Wolfs */
+#logwol{
+  position: absolute;
+  width: 100%;
+  height: 40px;
+  top: 240px;
+}
+#imgwol{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+}
+#buywol{
+  position: absolute;
+  width: 150px;
+  height: 40px;
+  left: 45px;
+  background-color: lightgray;
+}
+#diswol{
+  position: absolute;
+  width: 200px;
+  height: 40px;
+  left: 230px;
+  bottom: 2px;
+  margin: 0 0 -10px 0;
+}
+
+/* Lemons */
+#loglem{
+  position: absolute;
+  width: 100%;
+  height: 40px;
+  top: 290px;
+}
+#imglem{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+}
+#buylem{
+  position: absolute;
+  width: 150px;
+  height: 40px;
+  left: 45px;
+  background-color: yellow;
+}
+#dislem{
+  position: absolute;
+  width: 200px;
+  height: 40px;
+  left: 230px;
+  bottom: 2px;
+  margin: 0 0 -10px 0;
+}
+
+/* Lemon trees */
+#logLt3{
+  position: absolute;
+  width: 100%;
+  height: 40px;
+  top: 340px;
+}
+#imglt3{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+}
+#buyLt3{
+  position: absolute;
+  width: 150px;
+  height: 40px;
+  left: 45px;
+  background-color: lightgoldenrodyellow;
+}
+#dislt3{
+  position: absolute;
+  width: 200px;
+  height: 40px;
+  left: 230px;
+  bottom: 2px;
+  margin: 0 0 -10px 0;
+}

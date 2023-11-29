@@ -1,0 +1,117 @@
+body {
+    font-size: 15pt;
+}
+/* reset */
+#reset{
+  user-select: none;
+  width: 75px;
+  height: 50px;
+  background-color: darkred;
+  color: #ffffff;
+}
+#delete{
+  user-select: none;
+  position: absolute;
+  top: 1000px;
+  right: 10px;
+}
+
+/* percent */
+#percent{
+  user-select: none;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 10px;
+}
+
+/*BRB*/
+#unpressed{
+	position: absolute;
+	width: 300px;
+	height: 300px;
+}
+#pressed{
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	visibility: hidden;
+}
+#button{
+  user-select: none;
+  position: absolute;
+  top: 69px;
+  left: 50%;
+  margin: 0 0 0 -150px;
+}
+
+/* items */
+
+
+/* click */
+#clicks{
+  user-select: none;
+  position: absolute;
+  text-align: center;
+  height: 20px;
+  width: 200px;
+  top: 10px;
+  left: 50%;
+  margin: 0 0 0 -100px;
+}
+
+/* dog */
+#dog{
+  user-select: none;
+  position: absolute;
+  top: 400px;
+}
+#buydog{
+  user-select: none;
+  width: 180px;
+  height: 50px;
+  background-color: wheat;
+}
+#logdogs{
+  position: absolute;
+  width: 200px;
+  top: -5px;
+  left: 190px;
+}
+
+/* cat */
+#cat{
+  user-select: none;
+  position: absolute;
+  top: 525px;
+}
+#buycat{
+	user-select: none;
+	width: 180px;
+	height: 50px;
+	background-color: darkgray;
+}
+#logcats{
+  position: absolute;
+  width: 200px;
+  top: -5px;
+  left: 190px;
+}
+/* lemon */
+#lemon{
+  user-select: none;
+  position: absolute;
+  top: 650px;
+}
+#buylemon{
+	user-select: none;
+	width: 180px;
+	height: 50px;
+	background-color: yellow;
+}
+#loglemons {
+  position: absolute;
+  width: 200px;
+  top: -5px;
+  left: 190px;
+}

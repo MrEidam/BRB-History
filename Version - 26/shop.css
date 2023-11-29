@@ -1,0 +1,147 @@
+body{
+  font-size: 15pt;
+  user-select: none;
+}
+
+/* Dog */
+#logdog{
+  position: absolute;
+  width: 100%;
+  height: 40px;
+  top: 90px;
+}
+#imgdog{
+  position: absolute;
+  width: 64px;
+  height: 64px;
+}
+#buydog{
+  position: absolute;
+  width: 150px;
+  height: 40px;
+  left: 69px;
+  background-color: darkorange;
+}
+#disdog{
+  position: absolute;
+  width: 200px;
+  height: 40px;
+  left: 230px;
+  bottom: 2px;
+  margin: 0 0 -10px 0;
+}
+
+/* Cats */
+#logcat{
+  position: absolute;
+  width: 100%;
+  height: 40px;
+  top: 140px;
+}
+#buycat{
+  position: absolute;
+  width: 150px;
+  height: 40px;
+  left: 69px;
+  background-color: orange;
+}
+#discat{
+  position: absolute;
+  width: 200px;
+  height: 40px;
+  left: 230px;
+  bottom: 2px;
+  margin: 0 0 -10px 0;
+}
+
+/* Foxes */
+#logfox{
+  position: absolute;
+  width: 100%;
+  height: 40px;
+  top: 190px;
+}
+#buyfox{
+  position: absolute;
+  width: 150px;
+  height: 40px;
+  left: 69px;
+  background-color: lightsalmon;
+}
+#disfox{
+  position: absolute;
+  width: 200px;
+  height: 40px;
+  left: 230px;
+  bottom: 2px;
+  margin: 0 0 -10px 0;
+}
+
+/* Wolfs */
+#logwol{
+  position: absolute;
+  width: 100%;
+  height: 40px;
+  top: 240px;
+}
+#buywol{
+  position: absolute;
+  width: 150px;
+  height: 40px;
+  left: 69px;
+  background-color: lightgray;
+}
+#diswol{
+  position: absolute;
+  width: 200px;
+  height: 40px;
+  left: 230px;
+  bottom: 2px;
+  margin: 0 0 -10px 0;
+}
+
+/* Lemons */
+#loglem{
+  position: absolute;
+  width: 100%;
+  height: 40px;
+  top: 290px;
+}
+#buylem{
+  position: absolute;
+  width: 150px;
+  height: 40px;
+  left: 69px;
+  background-color: yellow;
+}
+#dislem{
+  position: absolute;
+  width: 200px;
+  height: 40px;
+  left: 230px;
+  bottom: 2px;
+  margin: 0 0 -10px 0;
+}
+
+/* Lemon trees */
+#logLt3{
+  position: absolute;
+  width: 100%;
+  height: 40px;
+  top: 340px;
+}
+#buyLt3{
+  position: absolute;
+  width: 150px;
+  height: 40px;
+  left: 69px;
+  background-color: lightgoldenrodyellow;
+}
+#dislt3{
+  position: absolute;
+  width: 200px;
+  height: 40px;
+  left: 230px;
+  bottom: 2px;
+  margin: 0 0 -10px 0;
+}

@@ -1,0 +1,21 @@
+                        v31
+  undefined and NaN fix for adding new animals
+  
+                        v32 /* 18.4. 2023 */
+  Added:  max value shop for wolfs, whales, hamsters, capybaras
+          icons for said animals 
+          new interface for BRB clicking 
+  
+  Removed: scrolling in BRB clicking 
+  
+  Fixed: button to get to the shop was updated
+        
+                        v33
+  Added: New UI for shop
+
+                        v34
+  Added: New Button to Upgrades menu
+         Shop UI
+
+  Fixed: Finally fixed NaN, Undefined, Null error
+         

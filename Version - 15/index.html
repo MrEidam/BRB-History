@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>BRB clicker</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- By MrEidamus & Stanislav Chlup -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	
+	 <!-- reset progress -->
+  <div id="delete">
+    <button id="reset" onclick="game.reset()">Reset</button>
+  </div>
+  
+	<!-- percent button -->
+	<button id="percent" onclick="game.percents()">
+		1x
+	</button>
+
+	<!-- B.R.B. (big red button) -->
+<div id="button">
+  <img src = 'https://i.postimg.cc/9Rs0vWFF/Nezm-kl.png' id="unpressed">
+  <img src = "https://i.postimg.cc/NLr5Rrpy/Zm-kl.png" id="pressed">
+ </div>
+
+	<!-- clicks logging -->
+  <div id="clicks">
+    <p id="logclicks"></p>
+  </div>
+  
+  <!-- item sections -->
+  <!-- dogs -->
+  <div id="dog">
+    <p id="logdogs"></p>
+    <button id="buydog" onclick="buy.dog()">
+    	Buy a dog for 100 clicks!
+    </button>
+  </div>
+  
+  <!-- cats -->
+  <div id="cat">
+  	<p id="logcats"></p>
+    <button id="buycat" onclick="buy.cat()">
+    	Buy a cat for 20 dogs!
+    </button>
+  </div>
+  
+  <!-- lemons -->
+  <div id="lemon">
+  	<p id="loglemons"></p>
+    <button id="buylemon" onclick="buy.lemon()">
+    	Buy a lemon for ? cats!
+    </button>
+  </div>
+  
+  
+  
+  
+
+  <!-- script -->
+    <script src="main.js"></script>
+    
+</body>
+</html>

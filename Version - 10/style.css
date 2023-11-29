@@ -1,0 +1,42 @@
+body {
+    font-size: 15pt;
+}
+#red{
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	
+	
+}
+#green{
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	visibility: hidden;
+}
+#button1{
+  user-select: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -150px 0 0 -150px;
+}
+#Reset{
+  user-select: none;
+  width: 75px;
+  height: 50px;
+  background-color: darkred;
+  color: #ffffff;
+}
+#Bog{
+  user-select: none;
+  width: 110px;
+  height: 50px;
+  background-color: wheat;
+}
+#BigBog{
+  user-select: none;
+  width: 135px;
+  height: 50px;
+  background-color: wheat;
+}

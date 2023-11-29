@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>BRB - Shop</title>
+
+  <!-- By MrEidam & Standa Chlup -->
+
+
+  <link rel="stylesheet" href="./css/shop.css">
+  <link rel="icon" href="./img/shop.png">
+</head>
+
+<body>
+
+  <!-- BRB -->
+  <header>
+    <div id="links">
+      <p class="link" style="--color:#ff6655">
+        <a href="index.html" id="brb">Go to BRB!</a>
+      </p>
+      <p class="link" style="--color:yellow">
+        <a href="upgrade.html" id="upg">Go to Upgrades!</a>
+      </p>
+    </div>
+
+    <!-- Clicks -->
+    <div id="logclick">
+      <img src="./img/Click.png" id="imgcli" draggable="false">
+      <p id="disclick"></p>
+    </div>
+  </header>
+
+
+
+  <!-- I T E M S -->
+  <main>
+    <!-- Dog -->
+    <div class="item" style="--color: papayawhip">
+      <img src="./img/Dog.png">
+
+      <div class="buttons" style="--Bcolor: darkorange">
+        <button onclick="buydog()" class="buyone" id="dg1">
+          Buy a Dog for 100 clicks
+        </button>
+        <button onclick="mxdg()" class="buymax">
+          MAX
+        </button>
+
+      </div>
+      
+      <p id="disdog"></p>
+      <p id="disdgmake"></p>
+    </div>
+
+    <!-- Cat -->
+    <div class="item">
+      <img src="./img/Cat.png">
+      <div class="buttons" style="--Bcolor: orange">
+        <button onclick="buycat()" class="buyone" id="ct1">
+          Buy a Cat for 10 dogs
+        </button>
+        <button onclick="mxct()" class="buymax">
+          MAX
+        </button>
+      </div>
+      <div class="clickbtn" style="--Bcolor: orange">
+        <button onclick="buyCcat()" class="buyone" id="Cct1">
+          Buy a Cat for 1200 clicks
+        </button>
+        <button onclick="mxCct()" class="buymax">
+          MAX
+        </button>
+      </div>
+      <p id="discat"></p>
+      <p id="disctmake"></p>
+    </div>
+
+
+    <!-- Fox -->
+    <div class="item">
+      <img src="./img/Fox.png">
+      <div class="buttons" style="--Bcolor: lightsalmon">
+        <button onclick="buyfox()" class="buyone" id="fx1">
+          Buy a Fox for 15 dogs
+        </button>
+        <button onclick="mxfx()" class="buymax">
+          MAX
+        </button>
+      </div>
+      <p id="disfox"></p>
+      <p id="disfxmake"></p>
+    </div>
+
+    <!-- Wolf -->
+    <div class="item">
+      <img src="./img/Wolf.png">
+      <div class="buttons" style="--Bcolor: lightgray">
+        <button onclick="buywol()" class="buyone" id="wl1">
+          Buy a Wolf for 6 dogs and 5 foxes
+        </button>
+        <button onclick="mxwl()" class="buymax">
+          MAX
+        </button>
+      </div>
+      <p id="diswol"></p>
+      <p id="diswlmake"></p>
+    </div>
+
+
+    <!-- Hamster -->
+    <div class="item">
+      <img src="./img/Hamsta.png" draggable="false">
+      <div class="buttons" style="--Bcolor: wheat">
+        <button onclick="buyham()" class="buyone" id="hm1">
+          Buy a Hamster for 1 wolf and 2 cats
+        </button>
+        <button onclick="mxhm()" class="buymax">
+          MAX
+        </button>
+      </div>
+      <p id="disham"></p>
+      <p id="dishmmake"></p>
+    </div>
+
+    <!-- Whales -->
+    <div class="item">
+      <img src="./img/wha.png" draggable="false">
+      <div class="buttons" style="--Bcolor: MediumAquamarine">
+        <button onclick="buywha()" class="buyone" id="wh1">
+          Buy a Whale for 2 wolfs
+        </button>
+        <button onclick="mxwh()" class="buymax">
+          MAX
+        </button>
+      </div>
+      <p id="diswha"></p>
+      <p id="diswhmake"></p>
+    </div>
+
+    <!-- Cappybarra -->
+    <div class="item">
+      <img src="./img/capy.png" draggable="false">
+      <div class="buttons" style="--Bcolor: rosybrown">
+        <button onclick="buycap()" class="buyone" id="cp1">
+          Buy a Cappybarra for 1 whale and 4 cats
+        </button>
+        <button onclick="mxcp()" class="buymax">
+          MAX
+        </button>
+      </div>
+      <p id="discap"></p>
+      <p id="discpmake"></p>
+    </div>
+
+    <!-- Platapuses-->
+    <div class="item">
+      <img src="./img/platapus.png" draggable="false">
+      <div class="buttons" style="--Bcolor: Sienna">
+        <button onclick="buypla()" class="buyone" id="pl1">
+          Buy a Platypus for 1 cappybarra and 1 wolf
+        </button>
+        <button onclick="mxpl()" class="buymax">
+          MAX
+        </button>
+      </div>
+      <p id="displa"></p>
+      <p id="displmake"></p>
+    </div>
+
+
+
+
+
+    <!-- Lemons -->
+    <div class="item">
+      <img src="./img/Lemons.png" draggable="false">
+      <div class="buttons" style="--Bcolor: yellow">
+        <button onclick="buylem()" class="buyone" id="lm1">
+          Buy a Lemon for <b style="font-weight: 1000;">some</b> cats
+        </button>
+        <button onclick="mxlm()" class="buymax">
+          MAX
+        </button>
+      </div>
+      <p id="dislem"></p>
+      <p id="dislmmake"></p>
+    </div>
+
+    <!-- Lemn t3-->
+    <div class="item">
+      <img src="./img/Lemt3.png" draggable="false">
+      <div class="buttons" style="--Bcolor: lightgoldenrodyellow">
+        <button onclick="buylt3()" class="buyone" id="lt1">
+          Buy a Lemon Tree for 5 lemons
+        </button>
+        <button onclick="mxlt()" class="buymax">
+          MAX
+        </button>
+      </div>
+      <p id="dislt3"></p>
+      <p id="disltmake"></p>
+    </div>
+  </main>
+
+  <!-- By MrEidam -->
+  <script src="shop.js"></script>
+</body>
+
+</html>

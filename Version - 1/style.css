@@ -1,0 +1,24 @@
+body {
+    font-size: 15pt;
+    user-select: none;
+}
+#red{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	background: red;
+	
+}
+#green{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	background: green;
+	visibility: hidden;
+}
+#button1{
+position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -50px 0 0 -50px;
+}

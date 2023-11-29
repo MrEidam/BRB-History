@@ -1,0 +1,16 @@
+
+
+
+
+v. 15
+- added comments making code more readeble
+- id of paragraph showing items must be same as item name in items object if not error can occur
+- orgenised code in logic order (as example look at css & html)
+- ui.updateitems function made working on every item in items object
+- added lemons as new item now four total (including clicks)
+- separated buy item functions from game object now are in buy object
+- added setup function to game object to clean up window.onload function
+
+
+
+

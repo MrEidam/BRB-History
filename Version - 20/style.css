@@ -1,0 +1,157 @@
+body {
+    font-size: 15pt;
+    user-select: none;
+}
+/* Shop */
+#shop{
+  user-select: none;
+  position: absolute;
+  bottom: 8px;
+  right: 75px;
+  width: 100px;
+  height: 50px;
+  margin: 0 0 0 -100%;
+}
+#kauf{
+  user-select: none;
+  position: absolute;
+  width: 75px;
+  height: 50px;
+  background-color: darkred;
+  color: #ffffff;
+  text-align: center;
+  
+}
+
+/* reset */
+#reset{
+  user-select: none;
+  width: 75px;
+  height: 50px;
+  background-color: darkred;
+  color: #ffffff;
+}
+#delete{
+  user-select: none;
+  position: absolute;
+  top: 900px;
+  right: 10px;
+}
+
+/* percent */
+#percent{
+  user-select: none;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 10px;
+}
+
+/*BRB*/
+#unpressed{
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+}
+#pressed{
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	visibility: hidden;
+	border-radius: 150px;
+}
+#button{
+  user-select: none;
+  position: absolute;
+  top: 69px;
+  left: 50%;
+  margin: 0 0 0 -150px;
+  border-radius: 150px;
+}
+
+/* I T E M S */
+
+
+/* click */
+#clicks{
+  position: absolute;
+  text-align: center;
+  height: 20px;
+  width: 400px;
+  top: 10px;
+  left: 50%;
+  margin: 0 0 0 -200px;
+}
+
+/* dog */
+#dog{
+  position: absolute;
+  top: 400px;
+}
+#buydog{
+  width: 180px;
+  height: 50px;
+  background-color: wheat;
+  border-radius: 20px;
+}
+#logdogs{
+  position: absolute;
+  width: 200px;
+  top: -5px;
+  left: 190px;
+}
+
+/* cat */
+#cat{
+  position: absolute;
+  top: 475px;
+}
+#buycat{
+	width: 180px;
+	height: 50px;
+	background-color: darkgray;
+	border-radius: 20px;
+}
+#logcats{
+  position: absolute;
+  width: 200px;
+  top: -5px;
+  left: 190px;
+}
+
+/* lemon */
+#lemon{
+  position: absolute;
+  top: 550px;
+}
+#buylemon{
+	width: 180px;
+	height: 50px;
+	background-color: yellow;
+	border-radius: 20px;
+}
+#loglemons{
+  position: absolute;
+  width: 200px;
+  top: -5px;
+  left: 190px;
+}
+
+/* fox */
+#fox{
+  position: absolute;
+  top: 625px;
+}
+#buyfox{
+  width: 180px;
+  height: 50px;
+  background-color: orange;
+  border-radius: 20px;
+}
+#logfoxes{
+  position: absolute;
+  width: 200px;
+  top: -5px;
+  left: 190px;
+}

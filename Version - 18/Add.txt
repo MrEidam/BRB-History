@@ -1,0 +1,17 @@
+click.offline.make
+max 5 hour
+
+BuyDog dog.log clicks/s
+
+1 dog = 1 clicks/s
+1 cat = 100 clicks/s
+1 hamster = 10 000 c/s
+1 girrafe = 1 000 000 c/s
+
+1 citronovník = 30 lemons/h
+
+reset all.clicks
+
+36,7% k 10 citronum že vyroste citronovník
+
+compile to .exe and add it to the play store

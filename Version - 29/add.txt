@@ -1,0 +1,61 @@
+click.offline.make
+max 5 hour
+
+BuyDog dog.log clicks/s
+
+1 dog = 1 clicks/s    =   100
+1 cat = 12 clicks/s   = 1 000
+1 fox = 18 clicks/s   = 1 500
+1 wolf = 100 c/s      = 8 100
+1 hamster = 121 c/s   = 10 100  | 1 wolf + 2 cats
+1 whale = 194 c/s     = 16 200  | 2 wolfs
+1 cappibara =         ≈ 20 000 
+1 platapus =          ≈ 25 000
+1 porcupine =         ≈ 40 000
+1 hippo =             ≈ 50 000
+1 snake =             ≈ 60 000
+1 cheetah =           ≈ 69 000
+1 girrafe = 1 000 000 c/s
+
+1 citronovník = 30 lemons/h
+
+1.2%
+reset all.clicks
+
+36,7% k 10 citronum že vyroste citronovník
+
+compile to .exe and add it to the play store
+
+add complete history of clicks, dogs, cats, lemons, ...
+total production
+
+Upgrades!
+
+Button
+Green button - 2.5 clicks per clicks
+Yellow button - 4 clicks/click + random Chance for a lemon
+Purple button - 6 c/c
+Cyan button - 10 c/c + random chance for ______
+
+    Dog
+R collar - 1.5 cs
+G collar - 2 cs
+Y collar - 5 cs
+P collar - 8.2 cs
+C collar - 15 cs
+
+Cat
+R collar - 150 cs
+G collar - 200 cs
+Y collar - 500 cs
+P collar - 750 cs
+C collar - 1 000 cs
+
+Fox
+R fur - 225 cs
+G fur - 300 cs
+Y fur - 666 cs
+P fur - 1 125 cs
+C fur - 1 500 cs
+
+lemon
