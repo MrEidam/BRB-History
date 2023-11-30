@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords" content="BRB, MrEidam, Eidam, Clicker, Button, Red, Big, Shop, Ajdam, MrAjdam, paneidam, merida">
+  <meta name="description" content="Clicker hra s červeným tlačítkem a zvířátky!">
+  <meta name="author" content="MrEidam">
+  <meta property="og:url" content="https://www.mreidam-brb.com">
+  <meta property="og:title" content="BRB">
+  <meta property="og:description" content="Clicker hra s červeným tlačítkem a zvířátky!">
+  <meta property="og:image" content="https://raw.githubusercontent.com/MrEidam/bigredbutton/main/img/brb-still.png">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9310992147638822" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/21ea186610.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-CTW2M8Q7SB"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-CTW2M8Q7SB');
+  </script>
+  <title>BRB - Clicking</title>
+  
+  <!-- By MrEidam && Standa Chlup -->
+
+  <link rel="stylesheet" href="./css/brb.css">
+  <link rel="icon" href="./img/brb-still.png">
+</head>
+
+<body id="body">
+  <div id="tycoon"></div>
+  
+  <!-- Clicks -->
+  <div id="logclick">
+    <p id="disclick">
+  </div>
+  
+  <!-- BRB -->
+  <div id="button" onclick="clicking()">
+    <img src="./img/brb-still.png" id="unpressed" draggable="false">
+    <img src="./img/brb-pressed.png" id="pressed" draggable="false">
+  </div>
+
+  <div class="menu-container">
+    <div class="button">Menu
+        <span class="fas fa-bars"></span>
+    </div>
+    <ul>
+      <li><a href="./" id="brb">BRB</a></li>
+      <li><a href="shop.html" id="shop"></a></li>
+      <li><a href="upgrade.html" id="upg"></a></li>
+      <li><a href="settings.html" id="sett"></a></li>
+    </ul>
+  </div>
+
+  <!-- Soc. -->
+  <div class="socmenu">
+    <li style="--i:1;--clr:#f00;">
+        <a href="https://www.youtube.com/@mreidam" target="_blank"><ion-icon name="logo-youtube"></ion-icon></a>
+    </li>
+    <div class="toggle" id="soctog">
+        <ion-icon name="share-social"></ion-icon>
+        <ion-icon name="close-outline"></ion-icon>
+    </div>
+  </div>
+
+  <!-- Project -->
+  <script src="./js/menu.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+</html>

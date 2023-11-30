@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://kit.fontawesome.com/21ea186610.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <title>BRB - Upgrades</title>
+
+  <link rel="stylesheet" href="./css/upgr.css">
+  <link rel="icon" href="./img/upgrade-icon-png-12.jpg">
+</head>
+
+<body id="body">
+  <!-- BRB -->
+  <header>
+    <!-- lemons -->
+    <section class="joe" id="jonathan">
+      <div id="loglm">
+        <img src="./img/lemon.svg" id="imglm" draggable="false">
+        <p id="dislm"></p>
+      </div>
+    </section>
+    
+  </header>
+  <main style="margin-top: 210px;">
+    <!-- Example -->
+    <div class="item">
+      <h2>BRB</h2>
+      <img src="./img/brb-still.png">
+      <div class="buttons" style="--Bcolor: darkred">
+        <button onclick="buyMcc()" class="buyone" id="Mc1">
+          Buy a Lorem ipsum, dolor sit amet consectetur
+        </button><!--
+        <button onclick="mxMc()" class="buymax">
+          MAX
+        </button>-->
+      </div>
+      
+      <p id="disMcmake"></p>
+    </div>
+
+  
+    <div class="item">
+      <h2>Prestige</h2>
+      <img src="./img/angel-wings.svg">
+      <div>
+        <progress id="prog" min="0" max="1000" value="0"></progress>
+      </div>
+      <div class="buttons" style="--Bcolor: gold">
+        <button class="buyTone" onclick="tblb()" id="presBT1">
+          Buy 1 ticket
+        </button>
+        <button class="buyTone" onclick="tmlm()" id="presBT10">
+          Buy 10 tickets
+        </button>
+        <button class="buyTone" onclick="talb()" id="presBTmax">
+          Buy All tickets
+        </button>
+      </div>
+      <button id="ItsTime" onclick="TheThing();"></button>
+      <p id="progva"></p>
+      <p id="got"></p>
+    </div>
+  </main>
+
+  <div class="menu-container">
+    <div class="button">Menu
+        <span class="fas fa-bars"></span>
+    </div>
+    <ul>
+      <li><a href="./" id="brb">BRB</a></li>
+      <li><a href="shop.html" id="shop"></a></li>
+      <li><a href="upgrade.html" id="upg"></a></li>
+      <li><a href="settings.html" id="sett"></a></li>
+    </ul>
+  </div>
+  <script src="./js/menu.js"></script>
+  <script src="./js/upgr.js"></script>
+</body>
+
+</html>

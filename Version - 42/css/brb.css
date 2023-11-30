@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+body{
+    user-select: none;
+    padding: 0;
+    margin: 0;
+    background-color: #333;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+#tycoon{
+  position: absolute;
+  width: 100%;
+  height: 200px;
+  background: #333;
+  font-size: 15pt;
+}
+#logclick{
+  position: absolute;
+  width: 100%;
+  top: 60px;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%,0);
+  font-size: 17.5pt;
+}
+@media only screen and (max-width: 700px){
+  #logclick{font-size: 15pt;}
+}
+#disclick{
+  position: absolute;
+  width: 100%;
+}
+
+/*BRB*/
+#unpressed{
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+}
+#pressed{
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	visibility: hidden;
+	border-radius: 150px;
+}
+#button{
+  user-select: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -150px 0 0 -150px;
+  border-radius: 150px;
+  cursor: pointer;
+}
+/* Other BTNS */
+
+.menu-container{
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Poppins';
+}
+.button{
+  position: relative;
+  background: #1b1b1b;
+  color: #fff;
+  font-size: 20px;
+  padding: 8px 20px;
+  width: 150px;/* 100% */
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: width .4s;
+}
+.button.expand{
+  width: 100%;
+}
+.fas.expand:before{
+  content: '\f00d';
+}
+ul{
+  list-style: none;
+  position: absolute;
+  top: 65px;
+  display: block;
+  background: #1b1b1b;
+  width: 100%;
+  text-align: center;
+  border-radius: 5px;
+  display: none;
+  box-shadow: 0 3px 6px rgba(0,0,0,.3);
+  padding-inline-start: 0px;
+}
+ul:before{
+  position: absolute;
+  content: '';
+  width: 20px;
+  height: 20px;
+  background: #1b1b1b;
+  top: -10px;
+  right: 15px;
+  transform: rotate(45deg);
+  z-index: -1;
+}
+ul li{
+  line-height: 35px;
+  padding: 8px 20px;
+  cursor: pointer;
+  border-bottom: 1px solid rgba(255,255,255,.1);
+}
+ul li:hover:first-child{
+  border-radius: 5px 5px 0 0;
+}
+ul li:hover:last-child{
+  border-radius: 0 0 5px 5px;
+}
+ul li:hover{
+  box-shadow: inset 0 0 5px #33ff33,
+              inset 0 0 10px #66ff66;
+}
+ul li:last-child{
+  border-bottom: none;
+}
+ul li a{
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+}
+ul li:hover a{
+  color: #44dd44;
+}
+
+.socmenu{
+  position: absolute;
+  left: -45px;
+  bottom: -45px;
+  width: 220px;
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.socmenu .toggle{
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 50%;
+  box-shadow: 
+      0 25px 15px rgba(0,0,0,0.25),
+      0 25px 20px rgba(0,0,0,0.1);
+  backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 3em;
+  color: #fff;
+  z-index: 1000000;
+}
+.socmenu .toggle ion-icon{position:absolute;opacity:0;transition:0.5s;}
+.socmenu .toggle ion-icon:nth-child(1){opacity:1;transform:rotate(360deg);}
+.socmenu.active .toggle ion-icon:nth-child(1){opacity:0;transform:rotate(0deg);}
+.socmenu .toggle ion-icon:nth-child(2){opacity:0;transform:rotate(0deg);}
+.socmenu.active .toggle ion-icon:nth-child(2){opacity:1;transform:rotate(360deg);}
+.socmenu li{
+  position: absolute;
+  left: 0;
+  list-style: none;
+  transform-origin: 110px;
+  transition: 0.5s;
+  transition-delay: calc(0.05s*var(--i));
+  transform: rotate(calc(360deg/4*var(--i)));
+  scale: 0;
+  z-index: 1;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.socmenu li::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -30px;
+  width: 20px;
+  height: 100%;
+  background: #fff;
+  z-index: 10;
+  transform: skewX(325deg) translateX(0);
+  box-shadow: -5px 0 0 #fff5;
+  transition: 0.5s;
+}
+.socmenu li:hover::before{
+  transform: skewX(325deg) translateX(180px);
+  box-shadow: -50px 0 0 #fff5;
+}
+.socmenu.active li{scale:1;}
+.socmenu li a{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  background: var(--clr);
+  color: #fff;
+  font-size: 2.25em;
+  border-radius: 50%;
+  transform: rotate(calc(360deg/-4*var(--i)));
+  box-shadow: 0 3px 4px rgba(0,0,0,0.15)
+}

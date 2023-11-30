@@ -1,0 +1,134 @@
+                        v41
+  Added: Settings
+         Into every menu transportation only to BRB, Shop, Upgrades, Settings
+         Prettier design of the colored 'topbar' aka Jonathan
+
+  Fixed: nothing (I think)
+
+  Removed: Things from BRB that are in Settings
+                        v40.5.3
+  Added: https://www.mreidam-brb.com/fun
+  
+                        v40.5.2
+  Added: Metatags for BRB
+
+  Fixed: Buying Single Owls causing deleting pythons not snakes
+         <a> in the "cool" menu
+         flashbang (loading window were always white at the start (now great with my eys))
+         text color in main brb + text shadow!
+                        v40.5
+  Added: Edited scrollbar
+
+  Fixed: Shop buttons for Czech
+                        v40
+  Added: Otters + Meerkats + Raccoons + Owls
+         Prestige!
+         !!!DARK_MODE!!!
+         Upgrades: - More Click per Click
+         Links to videos for help()
+         better clicks counter in BRB
+         NEW Lemons buying system (pain for user) from 1 (maybe 0) to 99
+         new bigger numbers (sextillion, quintillion, ext...)
+         cursor: pointer; for buttons
+
+  Removed: Lang Missing button
+           PNG files for some animals (now using SVG!)
+
+  Fixed: Upgrades section
+         My mentality
+         For new thing adding ||
+
+  Note: NOW Promote in Wallpaper engine AND Instagram
+        Add Complete history page
+        Sounds?
+
+
+  
+                        v39
+  Added: Pythons + Giraffes
+         New Nav. bar for Shop
+         New Navigation bar for BRB
+         Setting in the nav bar (mostly in BRB)
+
+  Removed: From BRB:
+                     Go to Shop btn
+                     Flag for lang
+                     Reset
+                     Help
+           From Shop:
+                     Go to BRB
+                     Go to Shop
+
+  Fixed: Clicks number in Shop
+
+  Note: please add Dark mode and into Wall. eng
+
+                        v38
+  Added: Snakes + Cheetas
+         new UI design for Shop Goer buttons and click displayer
+         new UI for flags
+         !!FIXED_BUTTONS_AND_CLICKS_IN_SHOP
+         Animated clicking for click displayer
+
+  Removed: Nothing
+
+  Fixed: Nothing
+
+  Note: FIRST VERSION ON DA NEEEW DOMAIN 
+        + onto wallpaper engine :D // no
+
+                        v37
+  Added: Better Language
+         Porcupines + Hippos
+         Buy Option - Clicks for E V E R Y T H I N G*
+         *exept Lemonds + L. Trees (Upgrades)
+         into local.storage almost 20 new animals (I HOPE)
+         Hidden Prestige multiplier (¯\_(ツ)_/¯) 
+         'Coming soon...' to Upgrade menu
+
+  Removed: Nothing 
+
+  Fixed: !!!!BRAND_NEW_SHOP_USER_INteRFACE!!!!
+         Shop I fixed shop (hapines)
+              - Shop.pain
+                     -wanna cry 
+
+  Note: Make the game harder (To eazy)
+        Main.js - 274 lines
+        Shop.js - 631 lines
+         
+
+                        v36
+  Added: Better Czech version
+         Buy Option - Clicks for Cats
+
+  Fixed: BRB now still
+  
+                        v35
+  Added: Platapuses
+         Better Ui
+         Now Czech Version
+
+  Fixed: Items not loading propebly
+
+  
+                        v34
+  Added: New Button to Upgrades menu
+         Shop UI
+
+  Fixed: Finally fixed NaN, Undefined, Null error
+        
+                        v33
+  Added: New UI for shop
+
+                        v32 /* 18.4. 2023 */
+  Added:  max value shop for wolfs, whales, hamsters, capybaras
+          icons for said animals 
+          new interface for BRB clicking 
+  
+  Removed: scrolling in BRB clicking 
+  
+  Fixed: button to get to the shop was updated
+
+                          v31
+  undefined and NaN fix for adding new animals

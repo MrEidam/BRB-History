@@ -14,6 +14,7 @@ header{
     z-index: 5000;
     top: 0;
     position: fixed;
+    width: 700px;
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
@@ -42,7 +43,7 @@ button{
 }
 
 main{
-    margin-top: 15rem;
+    margin-top: 12.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -77,4 +78,17 @@ footer{
 ::-webkit-scrollbar{
     background: transparent;
     width: 0px;
+}
+
+@media only screen and (max-width: 555px){
+    header{
+        z-index: 5000;
+        top: -45px;
+        position: fixed;
+        left: 50%;
+        transform: translateX(-50%) scale(.6);
+    }
+    main{
+        margin-top: 7.5rem;
+    }
 }
